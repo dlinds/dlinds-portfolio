@@ -1,57 +1,41 @@
 .jumbo-header {
-  text-align:center;
+  text-align: center;
   max-height: 100px;
 }
-.headshot a, li, p {
-  color:#5d5d5d;
+a, li, p {
+  color: #5d5d5d;
   font-weight: lighter;
 }
-
-.headshot h4 {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  color:#5d5d5d;
+ul {
+  margin: 7%;
+  padding: 0;
+  text-align: left;
 }
 
-.about-me {
-  padding: 0px 7% 0px 7%;
-}
 #headshot-img {
-  float:left;
-  width:30%;
+  float: left;
+  width: 30%;
   margin-right: 5%;
-}
-.about-me h3 {
-  text-align:right;
-  color:#5d5d5d;
-  font-weight: lighter;
 }
 
 .job-titles {
-  font-weight:normal;
+  font-weight: normal;
 }
 
 .career {
   padding: 0px 7% 0px 7%;
 }
 .career h3 {
-  text-align:right;
-  color:#5d5d5d;
+  text-align: right;
+  color: #5d5d5d;
   font-weight: lighter;
 }
 .career h6 {
-  color:#5d5d5d;
+  color: #5d5d5d;
 }
-ul {
-  margin:7%;
-  padding:0;
-  text-align: left;
-}
+
 #links-card {
-  margin-top:15px;
+  margin-top: 15px;
   padding: 2% 7% 2% 7%;
 }
 
