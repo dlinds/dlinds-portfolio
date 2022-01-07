@@ -23,9 +23,9 @@ ul {
 }
 
 
-#career, #about-me, #projects-card,#links-card {
-  padding: 2% 7% 2% 4%;
-  margin-top: 15px;
+#career, #about-me, #projects-main,#links-card {
+  padding: 2% 4% 2% 4%;
+  margin-bottom: 15px;
 }
 #career h3 {
   text-align: right;
@@ -39,15 +39,48 @@ ul {
 #links-card button {
   background-color: #304483;
   margin: 5px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
 
 #links-card button:hover {
   background-color: #0062cc;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
 }
 #links-card a:hover {
   text-decoration: none;
 }
 .projects-card {
-  margin-top: 15px;
-  padding: 2% 7% 2% 4%;
+  margin-top: 25px;
+  padding: 5% 4% 2% 4%;
+  background-color: #fcfcfc;
+  min-height: 350px;
+  text-align: left;
+  font-size: 11pt;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
+}
+.projects-card ul {
+  margin-top:0;
+  padding-top:0;
+  padding-left: 15px;
+  font-size: 11pt;
+}
+.projects-card h5 {
+  text-align: center;
+}
+.projects-card:hover {
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  text-decoration: none;
+}
+.project-div-link:hover {
+  text-decoration: none;
+  color:black;
+}
+.projects-card hr {
+  margin-top:0;
+  margin-bottom: 10px;
+}
+
+#projects-forward {
+  text-align: center;
+  padding: 2% 0% 1% 0%;  
 }
