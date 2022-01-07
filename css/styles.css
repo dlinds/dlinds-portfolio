@@ -7,10 +7,26 @@
   font-weight: lighter;
 }
 
-.headshot h5 {
+.headshot h4 {
   margin-top: 15px;
   margin-bottom: 10px;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  color:#5d5d5d;
+  font-weight: lighter;
+}
+
+.about-me {
+  padding: 0px 7% 0px 7%;
+  font-weight: lighter;
+}
+.about-me h3 {
+  text-align:right;
+  color:#5d5d5d;
+  font-weight: lighter;
+}
+
+.job-titles {
+  font-weight:normal;
 }
