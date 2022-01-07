@@ -50,3 +50,19 @@ ul {
   padding:0;
   text-align: left;
 }
+#links-card {
+  margin-top:15px;
+  padding: 2% 7% 2% 7%;
+}
+
+#links-card button {
+  background-color: #304483;
+  margin: 5px;
+}
+
+#links-card button:hover {
+  background-color: #0062cc;
+}
+#links-card a:hover {
+  text-decoration: none;
+}
