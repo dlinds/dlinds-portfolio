@@ -2,7 +2,7 @@
   text-align: center;
   max-height: 100px;
 }
-a, li, p {
+a, li, p, h3 {
   color: #5d5d5d;
   font-weight: lighter;
 }
@@ -22,21 +22,18 @@ ul {
   font-weight: normal;
 }
 
-.career {
-  padding: 0px 7% 0px 7%;
+
+#career, #about-me, #projects-card,#links-card {
+  padding: 2% 7% 2% 4%;
+  margin-top: 15px;
 }
-.career h3 {
+#career h3 {
   text-align: right;
   color: #5d5d5d;
   font-weight: lighter;
 }
-.career h6 {
+#career h6 {
   color: #5d5d5d;
-}
-
-#links-card {
-  margin-top: 15px;
-  padding: 2% 7% 2% 7%;
 }
 
 #links-card button {
@@ -49,4 +46,8 @@ ul {
 }
 #links-card a:hover {
   text-decoration: none;
+}
+.projects-card {
+  margin-top: 15px;
+  padding: 2% 7% 2% 4%;
 }
