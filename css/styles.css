@@ -19,6 +19,11 @@
 .about-me {
   padding: 0px 7% 0px 7%;
 }
+#headshot-img {
+  float:left;
+  width:30%;
+  margin-right: 5%;
+}
 .about-me h3 {
   text-align:right;
   color:#5d5d5d;
