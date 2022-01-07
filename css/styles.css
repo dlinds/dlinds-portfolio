@@ -20,7 +20,7 @@
   max-height: 100px;
 }
 a, li, p, h3 {
-  color: #5d5d5d;
+  color: #000;
   font-weight: lighter;
 }
 ul {
@@ -40,8 +40,7 @@ ul {
   font-weight: normal;
 }
 
-
-#career, #about-me, #projects-main,#links-card, #interests-card {
+#career, #about-me, #projects-main, #links-card, #interests-card {
   padding: 2% 4% 2% 4%;
   margin-bottom: 15px;
 }
@@ -55,19 +54,7 @@ ul {
   text-align: left;
 }
 
-#links-card button {
-  background-color: #304483;
-  margin: 5px;
-  box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
-}
 
-#links-card button:hover {
-  background-color: #0062cc;
-  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
-}
-#links-card a:hover {
-  text-decoration: none;
-}
 .projects-card {
   margin: 0 auto;
   margin-bottom: 25px;;
@@ -76,14 +63,14 @@ ul {
   height:93%;
   min-height: 350px;
   text-align: center;
-  font-size: 11pt;
+  /* font-size: 11pt; */
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
 .projects-card ul {
   margin-top:0;
   padding-top:0;
   padding-left: 15px;
-  font-size: 11pt;
+  /* font-size: 11pt; */
 }
 .projects-card h5, h6 {
   text-align: center;
@@ -114,4 +101,26 @@ ul {
   padding: 2% 0% 1% 0%;  
   margin-bottom: 25px;
   font-size: 16pt;
+}
+
+#interests-card li {
+  padding-bottom: 10px;
+}
+
+#SoundCloud-iframe {
+  padding-top:10px;
+}
+
+#links-card button {
+  background-color: #304483;
+  margin: 5px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
+}
+
+#links-card button:hover {
+  background-color: #0062cc;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+#links-card a:hover {
+  text-decoration: none;
 }
