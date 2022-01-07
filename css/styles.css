@@ -1,8 +1,16 @@
 .jumbo-header {
   text-align:center;
+  max-height: 100px;
+}
+.headshot a, li {
+  color:#5d5d5d;
+  font-weight: lighter;
 }
 
-.headshot-links {
-  color:gray;
-  text-decoration: underline;
+.headshot h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
