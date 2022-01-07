@@ -6,7 +6,7 @@
 
 ## Technologies Used
 
-* _HTNL_
+* _HTML_
 * _CSS_
 * _Bootstrap_
 
