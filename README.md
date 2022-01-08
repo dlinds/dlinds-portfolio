@@ -23,11 +23,11 @@ _This application will serve as a portfolio for any and all projects I've comple
 ## Known Bugs
 
 * _Font sizes are terribly small when viewing on a cell phone_
-* _Career card scales to content when browser window is made smaller, not to width of window_
 
 # Features Wish List
 
 * _I would also like to get the Click this tile footer to be at the bottom of the div_
+* _Have projects pop up a modal with more info, screenshots, links, etc_
 
 ## License
 

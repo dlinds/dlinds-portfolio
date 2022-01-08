@@ -33,6 +33,13 @@ ul {
   text-align: left;
 }
 
+@media (min-width: 768px) {
+  #career h3 {
+    text-align:left;
+  }
+}
+
+
 #headshot-img {
   float: left;
   width: 40%;
@@ -43,41 +50,62 @@ ul {
   font-weight: normal;
 }
 
+#career {
+  width:100%;
+}
+
 #career, #about-me, #projects-main, #links-card, #interests-card {
   padding: 2% 4% 2% 4%;
   margin-bottom: 15px;
+  background-color: #ffffff73;
+  transition-duration:.25s;
 }
 #career:hover, #about-me:hover, #projects-main:hover, #links-card:hover, #interests-card:hover {
   transition-duration:.25s;
-  background-color: #ffffffc9;
+  background-color: #fff;
 }
 #career h3 {
-  text-align: right;
   color: #5d5d5d;
   font-weight: lighter;
 }
+/* @media (min-width: 500px) {
+  #career h3 {
+    text-align:left;
+  }
+} */
+
+@media (min-width: 992px) {
+  #career h3 {
+    text-align:right;
+  }
+}
+
+#about-me h3 {
+  color: #5d5d5d;
+  font-weight: lighter;
+}
+
 #career h6 {
   color: #5d5d5d;
   text-align: left;
 }
-
-
 .projects-card {
-  /* margin: 0 auto; */
   margin-bottom: 25px;
   padding: 5% 4% 10% 4%;
   background-color: #fcfcfc;
+  transition-duration:.25s;
   height:93%;
-  /* min-height: 350px; */
   text-align: center;
-  /* font-size: 11pt; */
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
+}
+#projects-main h3 {
+  color: #5d5d5d;
+  font-weight: lighter;
 }
 .projects-card ul {
   margin-top:0;
   padding-top:0;
   padding-left: 15px;
-  /* font-size: 11pt; */
 }
 .projects-card h5, h6 {
   text-align: center;
@@ -99,7 +127,6 @@ ul {
   margin-bottom: 10px;
 }
 .project-card-content {
-  /* max-width:95%; */
   margin-left:10px;
   text-align: left;
 }
@@ -114,7 +141,10 @@ ul {
 #interests-card li {
   padding-bottom: 10px;
 }
-
+#interests-card h3 {
+  color: #5d5d5d;
+  font-weight: lighter;
+}
 #SoundCloud-iframe {
   padding-top:10px;
 }
@@ -124,7 +154,10 @@ ul {
   margin: 5px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
-
+#links-card h3 {
+  color: #5d5d5d;
+  font-weight: lighter;
+}
 #links-card button:hover {
   background-color: #0062cc;
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
