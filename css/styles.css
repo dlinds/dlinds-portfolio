@@ -80,6 +80,12 @@ ul {
   }
 }
 
+@media (max-width: 992px) {
+  p {
+    font-size:1.3em;
+  }
+}
+
 #about-me h3 {
   color: #5d5d5d;
   font-weight: lighter;
@@ -164,4 +170,12 @@ ul {
 }
 #links-card a:hover {
   text-decoration: none;
+}
+@media (max-width: 992px) {
+  p, li, ul, ol {
+    font-size:1.2em;
+  }
+  h6 {
+    font-size:1.4em;
+  }
 }
