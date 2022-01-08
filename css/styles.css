@@ -35,7 +35,7 @@ ul {
 
 #headshot-img {
   float: left;
-  width: 30%;
+  width: 40%;
   margin-right: 5%;
 }
 
@@ -46,6 +46,10 @@ ul {
 #career, #about-me, #projects-main, #links-card, #interests-card {
   padding: 2% 4% 2% 4%;
   margin-bottom: 15px;
+}
+#career:hover, #about-me:hover, #projects-main:hover, #links-card:hover, #interests-card:hover {
+  transition-duration:.25s;
+  background-color: #ffffffc9;
 }
 #career h3 {
   text-align: right;
@@ -59,7 +63,7 @@ ul {
 
 
 .projects-card {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 25px;
   padding: 5% 4% 10% 4%;
   background-color: #fcfcfc;
@@ -84,7 +88,7 @@ ul {
   text-decoration: none;
   height:96%;
   transition-duration:.25s;
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 .project-div-link:hover {
   text-decoration: none;
@@ -95,7 +99,7 @@ ul {
   margin-bottom: 10px;
 }
 .project-card-content {
-  max-width:95%;
+  /* max-width:95%; */
   margin-left:10px;
   text-align: left;
 }
