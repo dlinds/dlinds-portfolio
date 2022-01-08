@@ -172,10 +172,15 @@ ul {
   text-decoration: none;
 }
 @media (max-width: 992px) {
-  p, li, ul, ol {
-    font-size:1.4em;
+  p, li, ul, ol, footer {
+    font-size:18pt;
+    font-weight: normal;
   }
-  h6 {
-    font-size:1.6em;
+  footer {
+    font-weight: lighter;
+  }
+  h5, h6 {
+    margin-bottom: 15px;
+    font-size:20pt;
   }
 }
