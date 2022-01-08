@@ -183,9 +183,15 @@ ul {
     margin-bottom: 15px;
     font-size:30pt;
   }
+  h6 {
+    margin-top:25px;
+  }
   .container, .body {
     margin-left:5%;
     margin-right:5%;
     min-width: 90%;
+  }
+  .projects-card {
+    border: 1px solid #808080;
   }
 }
