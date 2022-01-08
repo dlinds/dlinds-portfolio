@@ -173,7 +173,7 @@ ul {
 }
 @media (max-width: 992px) {
   p, li, ul, ol, footer {
-    font-size:18pt;
+    font-size:24pt;
     font-weight: normal;
   }
   footer {
@@ -181,6 +181,11 @@ ul {
   }
   h5, h6 {
     margin-bottom: 15px;
-    font-size:20pt;
+    font-size:30pt;
+  }
+  .container, .body {
+    margin-left:5%;
+    margin-right:5%;
+    min-width: 90%;
   }
 }
