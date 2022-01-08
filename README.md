@@ -22,7 +22,8 @@ _This application will serve as a portfolio for any and all projects I've comple
 
 ## Known Bugs
 
-* _No known issues at this time_
+* _Font sizes are wonky when viewing on a cell phone_
+* _Career card scales to content when browser window is made smaller, not to width of window_
 
 ## License
 

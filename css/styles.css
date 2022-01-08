@@ -1,7 +1,10 @@
+body {
+  background-color: #fafafa99;
+}
 .container {
   border:1px solid #dfdfdf;
   border-top: 0px;
-  background-color: #fcfcfc;
+  background-color: #fbfbfb;
   box-shadow: 0 5px 15px rgb(0 0 0 / 55%);
 }
 .card {
@@ -57,11 +60,11 @@ ul {
 
 .projects-card {
   margin: 0 auto;
-  margin-bottom: 25px;;
-  padding: 5% 4% 2% 4%;
+  margin-bottom: 25px;
+  padding: 5% 4% 10% 4%;
   background-color: #fcfcfc;
   height:93%;
-  min-height: 350px;
+  /* min-height: 350px; */
   text-align: center;
   /* font-size: 11pt; */
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
@@ -81,6 +84,7 @@ ul {
   text-decoration: none;
   height:96%;
   transition-duration:.25s;
+  background-color: #f8f8f8;
 }
 .project-div-link:hover {
   text-decoration: none;
