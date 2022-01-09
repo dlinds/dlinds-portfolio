@@ -6,6 +6,7 @@ body {
   border-top: 0px;
   background-color: #fbfbfb;
   box-shadow: 0 5px 15px rgb(0 0 0 / 55%);
+  padding-top: 15px;
 }
 .card {
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
@@ -13,14 +14,14 @@ body {
 .jumbotron {
   background-color: #d1ecf1;
   border: 1px solid #afc2c6c9;
-  border-top-left-radius: 0%;
+  /* border-top-left-radius: 0%;
   border-top-right-radius: 0%;
-  border-top:0px;
+  border-top:0px; */
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
 .jumbo-header {
   text-align: center;
-  max-height: 100px;
+  max-height: 80%;
 }
 a, li, p, h3 {
   color: #000;
@@ -57,7 +58,7 @@ ul {
 #career, #about-me, #projects-main, #links-card, #interests-card {
   padding: 2% 4% 2% 4%;
   margin-bottom: 15px;
-  background-color: #ffffff73;
+  background-color: #ffffff5e;
   transition-duration:.25s;
 }
 #career:hover, #about-me:hover, #projects-main:hover, #links-card:hover, #interests-card:hover {
@@ -156,7 +157,9 @@ ul {
 }
 
 #links-card button {
-  background-color: #304483;
+  background-color: #d1ecf1;
+  border: 1px solid #adbdc0;
+  color:black;
   margin: 5px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
@@ -165,7 +168,8 @@ ul {
   font-weight: lighter;
 }
 #links-card button:hover {
-  background-color: #0062cc;
+  background-color: #d1ecf163;
+  transition-duration: .25s;
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
 }
 #links-card a:hover {
@@ -193,5 +197,8 @@ ul {
   }
   .projects-card {
     border: 1px solid #808080;
+  }
+  #career, #about-me, #projects-main, #links-card, #interests-card {
+    background-color: #ffffff;
   }
 }
