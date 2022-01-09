@@ -14,9 +14,6 @@ body {
 .jumbotron {
   background-color: #d1ecf1;
   border: 1px solid #afc2c6c9;
-  /* border-top-left-radius: 0%;
-  border-top-right-radius: 0%;
-  border-top:0px; */
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
 .jumbo-header {
@@ -190,6 +187,9 @@ ul {
   h6 {
     margin-top:25px;
   }
+  .container {
+    padding-top:30px;
+  }
   .container, .body {
     margin-left:5%;
     margin-right:5%;
@@ -200,5 +200,10 @@ ul {
   }
   #career, #about-me, #projects-main, #links-card, #interests-card {
     background-color: #ffffff;
+  }
+  .btn {
+    font-size:25px;
+    font-weight: normal;
+    letter-spacing: 1px;
   }
 }
