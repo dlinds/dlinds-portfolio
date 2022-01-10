@@ -189,6 +189,7 @@ ul {
   }
   .container {
     padding-top:30px;
+    padding-bottom: 15px;
   }
   .container, .body {
     margin-left:5%;
