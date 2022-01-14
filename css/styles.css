@@ -1,42 +1,47 @@
 body {
   background-color: #fafafa99;
 }
+
 .container {
-  border:1px solid #dfdfdf;
+  border: 1px solid #dfdfdf;
   border-top: 0px;
   background-color: #fbfbfb;
   box-shadow: 0 5px 15px rgb(0 0 0 / 55%);
   padding-top: 15px;
 }
+
 .card {
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
+
 .jumbotron {
   background-color: #d1ecf1;
   border: 1px solid #afc2c6c9;
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
+
 .jumbo-header {
   text-align: center;
   max-height: 80%;
 }
+
 a, li, p, h3 {
   color: #000;
   font-weight: lighter;
 }
+
 ul {
   margin-bottom: 3%;
   padding: 2%;
-  padding-left:7%;
+  padding-left: 7%;
   text-align: left;
 }
 
 @media (min-width: 768px) {
   #career h3 {
-    text-align:left;
+    text-align: left;
   }
 }
-
 
 #headshot-img {
   float: left;
@@ -49,38 +54,35 @@ ul {
 }
 
 #career {
-  width:100%;
+  width: 100%;
 }
 
 #career, #about-me, #projects-main, #links-card, #interests-card {
   padding: 2% 4% 2% 4%;
   margin-bottom: 15px;
   background-color: #ffffff5e;
-  transition-duration:.25s;
+  transition-duration: .25s;
 }
+
 #career:hover, #about-me:hover, #projects-main:hover, #links-card:hover, #interests-card:hover {
-  transition-duration:.25s;
+  transition-duration: .25s;
   background-color: #fff;
 }
+
 #career h3 {
   color: #5d5d5d;
   font-weight: lighter;
 }
-/* @media (min-width: 500px) {
-  #career h3 {
-    text-align:left;
-  }
-} */
 
 @media (min-width: 992px) {
   #career h3 {
-    text-align:right;
+    text-align: right;
   }
 }
 
 @media (max-width: 992px) {
   p {
-    font-size:1.3em;
+    font-size: 1.3em;
   }
 }
 
@@ -93,45 +95,53 @@ ul {
   color: #5d5d5d;
   text-align: left;
 }
+
 .projects-card {
   margin-bottom: 25px;
-  padding: 5% 4% 10% 4%;
-  background-color: #fcfcfc;
-  transition-duration:.25s;
-  height:93%;
   text-align: center;
+  padding: 5% 4% 10% 4%;
+  height: 93%;
+  background-color: #fcfcfc;
+  transition-duration: .25s;
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
+.projects-card:hover {
+  text-decoration: none;
+  height: 96%;
+  background-color: #fff;
+  transition-duration: .25s;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+}
+
 #projects-main h3 {
   color: #5d5d5d;
   font-weight: lighter;
 }
+
 .projects-card ul {
-  margin-top:0;
-  padding-top:0;
+  margin-top: 0;
+  padding-top: 0;
   padding-left: 15px;
 }
+
 .projects-card h5, h6 {
   text-align: center;
 }
 
-.projects-card:hover {
-  box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
-  text-decoration: none;
-  height:96%;
-  transition-duration:.25s;
-  background-color: #fff;
-}
+
+
 .project-div-link:hover {
   text-decoration: none;
-  color:black;
+  color: black;
 }
+
 .projects-card hr {
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 10px;
 }
+
 .project-card-content {
-  margin-left:10px;
+  margin-left: 10px;
   text-align: left;
 }
 
@@ -145,65 +155,79 @@ ul {
 #interests-card li {
   padding-bottom: 10px;
 }
+
 #interests-card h3 {
   color: #5d5d5d;
   font-weight: lighter;
 }
+
 #SoundCloud-iframe {
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 #links-card button {
   background-color: #d1ecf1;
   border: 1px solid #adbdc0;
-  color:black;
+  color: black;
   margin: 5px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
+
 #links-card h3 {
   color: #5d5d5d;
   font-weight: lighter;
 }
+
 #links-card button:hover {
   background-color: #d1ecf163;
   transition-duration: .25s;
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
 }
+
 #links-card a:hover {
   text-decoration: none;
 }
+
 @media (max-width: 992px) {
   p, li, ul, ol, footer {
-    font-size:24pt;
+    font-size: 24pt;
     font-weight: normal;
   }
+
   footer {
     font-weight: lighter;
   }
+
   h5, h6 {
     margin-bottom: 15px;
-    font-size:30pt;
+    font-size: 30pt;
   }
+
   h6 {
-    margin-top:25px;
+    margin-top: 25px;
   }
+
   .container {
-    padding-top:30px;
+    padding-top: 30px;
     padding-bottom: 15px;
   }
+
   .container, .body {
-    margin-left:5%;
-    margin-right:5%;
+    margin-left: 5%;
+    margin-right: 5%;
     min-width: 90%;
   }
+
   .projects-card {
     border: 1px solid #808080;
   }
+
   #career, #about-me, #projects-main, #links-card, #interests-card {
     background-color: #ffffff;
   }
+  
   .btn {
-    font-size:25px;
+    font-size: 25px;
     font-weight: normal;
     letter-spacing: 1px;
   }
