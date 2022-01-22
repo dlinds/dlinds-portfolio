@@ -4,6 +4,9 @@
   <title>Portfolio - Daniel Lindsey</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src='js/jquery-3.6.0.js'></script>
+  <script src='js/bootstrap.js'></script>
+  <script src='js/scripts.js'></script>
 </head>
 <body>
 <div class="container">
@@ -114,13 +117,13 @@
         </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://dlinds.github.io/css-box-model-exploration/" target="_blank" class="project-div-link">
+        <a href="https://dlinds.github.io/Mr-Robogers-Neighborhood/" target="_blank" class="project-div-link">
           <div class="card projects-card">
             <div class="project-card-content">
-              <h5>CSS Exploration</h5>
+              <h5>Mr. Roboger's Neighborhood</h5>
               <hr>
               <p>
-                This was an exploration into the box model with CSS. I was attempting to get the page to scale and keep formatting correct when browser window size changed.
+                This was our week three solo project at Epicodus. We worked on looping, arrays, TDD, and DRY when coding, so for this project I focused primarily on my Business and Utility logic, and worked especially hard to refactor.<br><br>When a number is submitted on the page, a result will be returned to the submitter.
               </p>
               <footer>
                 <em><strong>Click this tile for the GitHub Pages link.</strong></em>
@@ -130,23 +133,14 @@
         </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://dlinds.github.io/vacation-site/" target="_blank" class="project-div-link">
+        <a href="https://dlinds.github.io/programming-survey/" target="_blank" class="project-div-link">
           <div class="card projects-card">
             <div class="project-card-content">
-              <h5>Vacation Site</h5>
+              <h5>Language Survey</h5>
               <hr>
               <p>
-                Alex and I built this during week 1 of our Epicodus boot camp. It is a vacation site for a resort, complete with tacky graphics and tacky fonts.
+                This was our week two solo project at Epicodus. We were introduced to JavaScript, jQuery, and branching.<br><br>When the survey is filled out, based on the answers provided, a programming language will be suggested for the submitter to learn. Note that not every scenario will provide a language, but every scenario will get a response.
               </p>
-              <h6>Co-Contributors</h6>
-              <hr>
-              <ul>
-                <li>
-                  Alex McKnight
-                  <br>
-                  <strong>github</strong>: alex-mcknight11
-                </li>
-              </ul>
               <footer>
                 <em><strong>Click this tile for the GitHub Pages link.</strong></em>
               </footer>
@@ -213,7 +207,7 @@
         </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://github.com/dlinds/PowerShell/blob/main/RemotelyAssistOverRDP.ps1" target="_blank" class="project-div-link">
+        <a href="https://github.com/dlinds/PowerShell/blob/main/RemotelyAssistOverRDP.ps1" target="_blank" class="project-div-link" data-toggle="modal" data-target="#exampleModalCenter">
           <div class="card projects-card">
             <div class="project-card-content"> 
               <h5>Remote Assist Over RDP</h5>
@@ -234,6 +228,25 @@
     </div> <!-- end second row of four project cards -->
   </div> <!-- end card containing all projects-->
   <!-- begin interests section -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="card" id="interests-card">
     <h3 class="display-3">Interests</h3>
     <hr>
